@@ -5,6 +5,10 @@ import httpx
 import os
 from typing import Optional
 import json
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 app = FastAPI(
     title="TSA Item Checker API",
