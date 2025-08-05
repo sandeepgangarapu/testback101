@@ -13,3 +13,7 @@ services:
         value: "3.11.4"
       - key: OPENROUTER_API_KEY
         sync: false  # You'll need to set this manually in Render dashboard
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        value: "https://bruqzbaiwogvcfxapixk.supabase.co"
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJydXF6YmFpd29ndmNmeGFwaXhrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ0MjI1MTIsImV4cCI6MjA2OTk5ODUxMn0.8MHnk-ec65KT0oJab_wXCQB1WrNWAblI8MbxP75XNMg"
